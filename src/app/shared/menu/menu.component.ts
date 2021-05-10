@@ -36,6 +36,10 @@ export class MenuComponent implements OnInit {
     {
       ruta:'/mapas/propiedades',
       nombre: 'Propiedades'
+    },
+    {
+      ruta:'/mapas/polygono',
+      nombre: 'Polygono'
     }
 
   ]

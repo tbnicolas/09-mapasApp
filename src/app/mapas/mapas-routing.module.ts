@@ -4,6 +4,7 @@ import { FullScreenComponent } from './pages/full-screen/full-screen.component';
 import { ZoomRangeComponent } from './pages/zoom-range/zoom-range.component';
 import { MarcadoresComponent } from './pages/marcadores/marcadores.component';
 import { PropiedadesComponent } from './pages/propiedades/propiedades.component';
+import { PolygonoComponent } from './pages/polygono/polygono/polygono.component';
 
 const routes: Routes = [
 
@@ -14,6 +15,7 @@ const routes: Routes = [
       { path: 'zoom-range', component: ZoomRangeComponent},
       { path: 'marcadores', component: MarcadoresComponent},
       { path: 'propiedades', component: PropiedadesComponent},
+      { path: 'polygono', component: PolygonoComponent},
       { path: '**', redirectTo: 'fullscreen'},
 
 
